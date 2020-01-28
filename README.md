@@ -49,8 +49,15 @@ solution.
 Installation
 ------------
 
-TODO
+On Linux, enter the AriaCoda source directory in a terminal,
+and run `sudo make install`.
 
+next add /usr/local/Aria/lib to the enviornment variable LD_LIBRARY_PATH by
+running `export LD_LIBRARY_PATH=/usr/local/Aria/lib:$LD_LIBRARY_PATH`
+
+run `sudo ldconfig`
+
+verify the library installed correctly by going to /usr/local/Aria/
 
 Reference Documentation
 -----------------------
